@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6509FB831FD25CF7006B5597 /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509FB821FD25CF7006B5597 /* BeerViewController.swift */; };
+		6509FB851FD25D34006B5597 /* BeerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509FB841FD25D34006B5597 /* BeerDetail.swift */; };
+		6529A46B1FD1E0A800AEAE90 /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529A46A1FD1E0A800AEAE90 /* StyleViewController.swift */; };
+		6529A46D1FD1EA9200AEAE90 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529A46C1FD1EA9200AEAE90 /* Categories.swift */; };
+		6551547F1FD22D3700805520 /* StyleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6551547E1FD22D3700805520 /* StyleDetailViewController.swift */; };
+		655154811FD22F4B00805520 /* StyleBeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655154801FD22F4B00805520 /* StyleBeer.swift */; };
+		65A984491FD70DFB0054DBBE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A984481FD70DFB0054DBBE /* SearchViewController.swift */; };
+		65EA441A1FD360500088D93C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65EA44191FD360500088D93C /* GoogleService-Info.plist */; };
+		65EA441C1FD3777A0088D93C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EA441B1FD3777A0088D93C /* FavoritesViewController.swift */; };
 		65FC70EC1FD10B7D005CC81B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC70EB1FD10B7D005CC81B /* AppDelegate.swift */; };
 		65FC70EE1FD10B7D005CC81B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC70ED1FD10B7D005CC81B /* ViewController.swift */; };
 		65FC70F11FD10B7D005CC81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FC70EF1FD10B7D005CC81B /* Main.storyboard */; };
 		65FC70F31FD10B7D005CC81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FC70F21FD10B7D005CC81B /* Assets.xcassets */; };
 		65FC70F61FD10B7D005CC81B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FC70F41FD10B7D005CC81B /* LaunchScreen.storyboard */; };
+		D01FBD8DFDB8C2255CE1AC4F /* Pods_BeerBud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7C0C6AC2142D1C0424A9CD /* Pods_BeerBud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C87670113099D3B51684DD5 /* Pods-BeerBud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBud.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeerBud/Pods-BeerBud.release.xcconfig"; sourceTree = "<group>"; };
+		6509FB821FD25CF7006B5597 /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		6509FB841FD25D34006B5597 /* BeerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetail.swift; sourceTree = "<group>"; };
+		6529A46A1FD1E0A800AEAE90 /* StyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
+		6529A46C1FD1EA9200AEAE90 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		6551547E1FD22D3700805520 /* StyleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleDetailViewController.swift; sourceTree = "<group>"; };
+		655154801FD22F4B00805520 /* StyleBeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleBeer.swift; sourceTree = "<group>"; };
+		65A984481FD70DFB0054DBBE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		65EA44191FD360500088D93C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65EA441B1FD3777A0088D93C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		65FC70E81FD10B7D005CC81B /* BeerBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FC70EB1FD10B7D005CC81B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65FC70ED1FD10B7D005CC81B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,8 @@
 		65FC70F21FD10B7D005CC81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FC70F51FD10B7D005CC81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65FC70F71FD10B7D005CC81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7C0C6AC2142D1C0424A9CD /* Pods_BeerBud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerBud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2705A67B5E1F27AE36FB991 /* Pods-BeerBud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerBud/Pods-BeerBud.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01FBD8DFDB8C2255CE1AC4F /* Pods_BeerBud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47ADC43AB6E63AB23B0A4908 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2705A67B5E1F27AE36FB991 /* Pods-BeerBud.debug.xcconfig */,
+				2C87670113099D3B51684DD5 /* Pods-BeerBud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		65FC70DF1FD10B7D005CC81B = {
 			isa = PBXGroup;
 			children = (
 				65FC70EA1FD10B7D005CC81B /* BeerBud */,
 				65FC70E91FD10B7D005CC81B /* Products */,
+				47ADC43AB6E63AB23B0A4908 /* Pods */,
+				CDFBAB7A0D99C45260BE4849 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +90,29 @@
 			children = (
 				65FC70EB1FD10B7D005CC81B /* AppDelegate.swift */,
 				65FC70ED1FD10B7D005CC81B /* ViewController.swift */,
+				6529A46A1FD1E0A800AEAE90 /* StyleViewController.swift */,
+				6551547E1FD22D3700805520 /* StyleDetailViewController.swift */,
+				6509FB821FD25CF7006B5597 /* BeerViewController.swift */,
+				65EA441B1FD3777A0088D93C /* FavoritesViewController.swift */,
+				65A984481FD70DFB0054DBBE /* SearchViewController.swift */,
 				65FC70EF1FD10B7D005CC81B /* Main.storyboard */,
+				6529A46C1FD1EA9200AEAE90 /* Categories.swift */,
+				655154801FD22F4B00805520 /* StyleBeer.swift */,
+				6509FB841FD25D34006B5597 /* BeerDetail.swift */,
 				65FC70F21FD10B7D005CC81B /* Assets.xcassets */,
 				65FC70F41FD10B7D005CC81B /* LaunchScreen.storyboard */,
 				65FC70F71FD10B7D005CC81B /* Info.plist */,
+				65EA44191FD360500088D93C /* GoogleService-Info.plist */,
 			);
 			path = BeerBud;
+			sourceTree = "<group>";
+		};
+		CDFBAB7A0D99C45260BE4849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D7C0C6AC2142D1C0424A9CD /* Pods_BeerBud.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65FC70FA1FD10B7D005CC81B /* Build configuration list for PBXNativeTarget "BeerBud" */;
 			buildPhases = (
+				5F10C2CE73965EB567B7CC89 /* [CP] Check Pods Manifest.lock */,
 				65FC70E41FD10B7D005CC81B /* Sources */,
 				65FC70E51FD10B7D005CC81B /* Frameworks */,
 				65FC70E61FD10B7D005CC81B /* Resources */,
+				ACE50BA4AC6111ACBFA459CB /* [CP] Embed Pods Frameworks */,
+				BB01F2FFDB867A2EDEDE36B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,16 +180,111 @@
 				65FC70F61FD10B7D005CC81B /* LaunchScreen.storyboard in Resources */,
 				65FC70F31FD10B7D005CC81B /* Assets.xcassets in Resources */,
 				65FC70F11FD10B7D005CC81B /* Main.storyboard in Resources */,
+				65EA441A1FD360500088D93C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F10C2CE73965EB567B7CC89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeerBud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE50BA4AC6111ACBFA459CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BeerBud/Pods-BeerBud-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerBud/Pods-BeerBud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB01F2FFDB867A2EDEDE36B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BeerBud/Pods-BeerBud-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerBud/Pods-BeerBud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65FC70E41FD10B7D005CC81B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A984491FD70DFB0054DBBE /* SearchViewController.swift in Sources */,
+				6551547F1FD22D3700805520 /* StyleDetailViewController.swift in Sources */,
+				65EA441C1FD3777A0088D93C /* FavoritesViewController.swift in Sources */,
+				6529A46B1FD1E0A800AEAE90 /* StyleViewController.swift in Sources */,
+				6509FB831FD25CF7006B5597 /* BeerViewController.swift in Sources */,
+				6529A46D1FD1EA9200AEAE90 /* Categories.swift in Sources */,
+				6509FB851FD25D34006B5597 /* BeerDetail.swift in Sources */,
+				655154811FD22F4B00805520 /* StyleBeer.swift in Sources */,
 				65FC70EE1FD10B7D005CC81B /* ViewController.swift in Sources */,
 				65FC70EC1FD10B7D005CC81B /* AppDelegate.swift in Sources */,
 			);
@@ -272,13 +421,14 @@
 		};
 		65FC70FB1FD10B7D005CC81B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2705A67B5E1F27AE36FB991 /* Pods-BeerBud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFHPR2JNX7;
 				INFOPLIST_FILE = BeerBud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.BeerBud";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.BeerBud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +437,14 @@
 		};
 		65FC70FC1FD10B7D005CC81B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C87670113099D3B51684DD5 /* Pods-BeerBud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFHPR2JNX7;
 				INFOPLIST_FILE = BeerBud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.BeerBud";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.BeerBud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
